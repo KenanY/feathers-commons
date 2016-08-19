@@ -24,6 +24,7 @@
     "node": ">=0.10.0"
   },
   "main": "lib/commons.js",
+  "jsnext:main": "src/commons.js",
   "scripts": {
     "prepublish": "npm run compile",
     "publish": "git push origin && git push origin --tags",
